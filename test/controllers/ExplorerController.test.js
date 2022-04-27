@@ -7,7 +7,7 @@ describe("Test para ExplorerController", () => {
     });
 
     test("2) Calcular cuantos explorers por misión", () => {
-        let lengthExplorers = ExplorerController.getExplorersAmonutByMission("java");
+        let lengthExplorers = ExplorerController.getExplorersAmountByMission("java");
         expect(lengthExplorers).toBe(5);
     });
 
