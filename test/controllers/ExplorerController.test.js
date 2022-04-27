@@ -17,4 +17,11 @@ describe("Test para ExplorerController", () => {
         expect(usernamesExplorers[2]).toBe("ajolonauta3");
         expect(usernamesExplorers[1]).toBe("ajolonauta2");
     });
+
+    test("4) Validar si un número es divisible entre 3 o 5", () => {
+        let validation = ExplorerController.getValidationInNumber(15);
+        let validation2 = ExplorerController.getValidationInNumber(10);
+        expect(validation).toBe("FizzBuzz");
+        expect(validation2).toBe("Buzz");
+    });
 });
