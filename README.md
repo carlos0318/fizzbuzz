@@ -12,3 +12,4 @@ Refactoring
   - Creando server con API
   - Agregar pruebas 
 - Parte 3: Nuevo requerimiento
+  - Flujo de Nueva funcionalidad
