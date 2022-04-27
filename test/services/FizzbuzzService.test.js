@@ -10,8 +10,8 @@ describe("FizzbuzzService", () => {
         const explorers = [explorer1, explorer3, explorer5, explorer15];
         const explorersInNodeAndFizzBuzzTrick = explorers.map(explorer => FizzbuzzService.applyValidationInExplorer(explorer));
         expect(explorersInNodeAndFizzBuzzTrick[0].trick).toBe(1);
-        expect(explorersInNodeAndFizzBuzzTrick[1].trick).toBe("FIZZ");
-        expect(explorersInNodeAndFizzBuzzTrick[2].trick).toBe("BUZZ");
-        expect(explorersInNodeAndFizzBuzzTrick[3].trick).toBe("FIZZBUZZ");
+        expect(explorersInNodeAndFizzBuzzTrick[1].trick).toBe("Fizz");
+        expect(explorersInNodeAndFizzBuzzTrick[2].trick).toBe("Buzz");
+        expect(explorersInNodeAndFizzBuzzTrick[3].trick).toBe("FizzBuzz");
     });
 });
