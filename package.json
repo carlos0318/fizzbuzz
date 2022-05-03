@@ -7,7 +7,8 @@
     "dev": "node ./lib/server.js",
     "test": "jest",
     "linter": "eslint ./**/*.js",
-    "linter-fix": "eslint ./**/*.js --fix"
+    "linter-fix": "eslint ./**/*.js --fix",
+    "bot": "node ./lib/bot.js"
   },
   "keywords": [],
   "author": "",
